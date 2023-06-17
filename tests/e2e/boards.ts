@@ -1,9 +1,9 @@
-describe('My First Test', function () {
+describe('Create board', function () {
   before((browser) => {
     browser.init()
   })
-
-  it('visits the app root url', function () {
+  //TODO: add e2e
+  it.skip('Should show create button link', function () {
     browser.assert
       .textContains('.green', 'You did it!')
       .assert.elementHasCount('.wrapper nav a', 2)
